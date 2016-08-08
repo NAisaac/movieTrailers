@@ -1,8 +1,7 @@
 import webbrowser
 
 class Movie():
-	"__doc__ this is where you would write out the documentation for this class"
-	valid_ratings = ["G", "PG", "PG-13", "NR-17", "R"]
+	"Movie class is the data structure to store movies' data and functions"
 
 	def __init__(self, title, storyline, poster_image_url, trailer_youtube_url):
 		self.title = title
